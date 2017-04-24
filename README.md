@@ -1,12 +1,6 @@
 classifieur_pet.py
 ======
 
-## Log
-Using TensorFlow backend.
-W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
-./extract-features.py:27: UserWarning: Update your `Model` call to the Keras 2 API: `Model(outputs=Tensor("fc..., inputs=Tensor("in...)`
-  model = Model(input=base_model.input, output=base_model.get_layer('fc2').output)
-
 ## Objectif
 - Réaliser l’apprentissage d’un classifieur d’images: indique de manière automatique quel est le contenu principal d’une image, à partir d’une liste de classes possibles.
 - 2 classes C = ["chien", "chat"]
